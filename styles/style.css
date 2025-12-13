@@ -194,7 +194,7 @@ ol {
 .search-form__submit-button {
   align-self: end;
   width: 194px;
-  height: 34px;
+  min-height: 34px;
 }
 
 .content__details {
@@ -209,7 +209,6 @@ ol {
   font-family: "Oswald", Arial, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  font-style: bold;
   line-height: 94%;
   text-transform: uppercase;
 }
@@ -238,6 +237,10 @@ ol {
   display: block;
   color: #fff;
   text-decoration: none;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__card-link:hover {
